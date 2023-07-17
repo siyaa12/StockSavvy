@@ -1,0 +1,16 @@
+{
+  "name": "ttp-stock-heroku-deploy",
+  "version": "0.1.0",
+  "engines": {
+    "node": "10.x"
+  },
+  "scripts": {
+    "start": "cd server && npm install && node ./bin/www",
+    "build": "cd client/ && npm install && npm install --only=dev --no-shrinkwrap && npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ThisZW/virtual-stock-demo"
+  },
+  "license": "MIT"
+}
